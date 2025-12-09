@@ -17,3 +17,7 @@
   }
 }
 
+"scripts": {
+  "build": "vue-cli-service build",
+  "deploy": "gh-pages -d dist"
+}
