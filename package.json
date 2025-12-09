@@ -1,0 +1,19 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.6.0",
+    "vue": "^3.3.4",
+    "vue-chartjs": "^5.3.1",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
+}
+
