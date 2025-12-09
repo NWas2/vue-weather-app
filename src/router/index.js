@@ -1,16 +1,16 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
-import Hourly from '../views/Hourly.vue';
-import Forecast5Day from '../views/Forecast5Day.vue';
+import { createRouter, createWebHashHistory } from 'vue-router';
+import Home from '../views/home.vue';
+import Hourly from '../views/hourly.vue';
+import FiveDay from '../views/forecast5day.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/hourly', name: 'Hourly', component: Hourly },
-  { path: '/5day', name: 'Forecast5Day', component: Forecast5Day },
+  { path: '/5day', name: 'FiveDay', component: FiveDay }
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 });
 
